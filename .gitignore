@@ -1,0 +1,21 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+*.log
+*.pem
+*.key
+# Generated output, caches, and editor files
+target/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+*.iml
+output.txt
